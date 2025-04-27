@@ -1,7 +1,7 @@
 # Database Analyzer
 Database Analyzer is a WordPress plugin designed to give you detailed insights into your site's database and offer tools for cleaning up unused or bloated data.
 
-##Features
+## Features
 
 📊 Database Overview
 
@@ -31,7 +31,7 @@ Remove orphaned comment meta.
 
 ---
 
-##Roadmap
+## Roadmap
 
 Add orphaned options detection and removal.
 
@@ -41,7 +41,7 @@ Extend cleanup for WooCommerce-specific orphaned data.
 
 ---
 
-##Installation
+## Installation
 
 Download or clone this repository.
 
