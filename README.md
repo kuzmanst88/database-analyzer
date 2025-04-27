@@ -49,6 +49,6 @@ Upload the plugin to your WordPress /wp-content/plugins/ directory.
 
 Activate the plugin through the 'Plugins' menu in WordPress.
 
-Navigate to Tools > Database Analyzer to start analyzing and cleaning your database.
+Navigate to DB Analyzer to start analyzing and cleaning your database.
 
 
