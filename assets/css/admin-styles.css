@@ -1,0 +1,369 @@
+.wpdba-title h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #668;
+  font-size: 1.3rem;
+}
+.wpdba-title {
+  padding-bottom: 20px;
+}
+.wpdba-subtitle {
+  display: flex;
+  justify-content: space-around;
+}
+.wpdba-subtitle h3 {
+  color: #668;
+}
+.wpdba-nav-tab-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 20px 0;
+  justify-content: center;
+}
+.wpdba-nav-tab-wrapper a {
+  padding: 10px 35px;
+  text-decoration: none;
+  border-right: 1px rgb(2, 1, 1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+.wpdba-nav-tab-wrapper a:hover {
+  background-color: #fff;
+}
+.wpdba-nav-tab {
+  display: inline-block;
+  padding: 8px 15px;
+  margin-right: 5px;
+  color: #0073aa;
+  text-decoration: none;
+}
+.wpdba-nav-tab-active {
+  background-color: #0073aa;
+  color: #fff;
+  border-radius: 3px;
+}
+.wpdba-tab-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.wpdba-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+}
+.wpdba-main-box-title h1 {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #668;
+}
+.wpdba-main-box-desc h3 {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #668;
+}
+.wpdba-see-more .wpdba-button a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #668;
+}
+.wpdba-see-more {
+  padding-top: 1em;
+}
+.wpdba-admin-boxes .wpdba-see-more a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #668;
+}
+
+.wpdba-admin-boxes .wpdba-button {
+  border: 1px solid #0073aa !important;
+  border-radius: 4px;
+  color: #fff !important;
+  background-color: #0073aa !important;
+}
+.wpdba-button:hover {
+  /* background-color: #0073aa !important; */
+  color: #0073aa !important;
+  background-color: #fff !important;
+}
+
+/* Keep the support/upgrade links aligned left */
+.wpdba-main-box-desc {
+  margin-left: auto;
+}
+.wpdba-admin-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.wpdba-result {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+.wpdba-admin-boxes .wpdba-box-three {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  flex: 1;
+  max-width: 32%;
+  padding: 20px;
+  background: #f0f0f1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  color: #668;
+}
+.wpdba-admin-boxes .wpdba-box-three h2 {
+  font-weight: 400;
+  color: #668;
+}
+.wpdba-admin-boxes .wpdba-box-two {
+  flex: 1 0 48%;
+  padding: 20px;
+  background: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.wpdba-box-two {
+  display: flex;
+  justify-content: center;
+}
+.wpdba-large-tables {
+  align-self: left;
+}
+.wpdba-optimization-table {
+  width: 80%;
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: left;
+  background-color: #ddd;
+  border: 1px solid rgb(10, 4, 4);
+  border-radius: 1px;
+  overflow: hidden;
+}
+.wpdba-options-table {
+  width: 100%;
+  /* font-size: clamp(0.5rem, 1vw, 1rem); */
+}
+/* Keep WP footer */
+#wpfooter {
+  position: relative !important;
+  text-align: center;
+  bottom: 0;
+  padding: 10px;
+  background: #f9f9f9;
+  border-top: 1px solid #ddd;
+  font-size: 12px;
+  color: #666;
+}
+
+.wpdba-optimization-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+}
+
+.wpdba-optimization-container table {
+  width: 50%;
+}
+
+.wpdba-optimization-text {
+  flex-basis: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  flex-direction: column;
+}
+
+.wpdba-optimization-container .striped tbody td {
+  text-align: center;
+}
+.wpdba-title-mobile {
+  display: none;
+}
+
+.table-name:hover {
+  cursor: pointer;
+}
+/************************ MOBILE *************************/
+
+@media screen and (max-width: 768px) {
+  /* navigation menu */
+  .wpdba-nav-tab-wrapper {
+    display: block;
+  }
+  .wpdba-nav-tab {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+  /* General Infomration */
+  .wpdba-admin-boxes {
+    display: block;
+  }
+  .wpdba-box-three {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .wpdba-admin-boxes .wpdba-box-three {
+    max-width: 100%;
+  }
+  .wpdba-subtitle {
+    display: none;
+  }
+  .wpdba-box-two {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .wpdba-title-mobile {
+    display: inline;
+    text-align: center;
+  }
+  .wpdba-title-mobile h3 {
+    color: #668;
+  }
+  .wpdba-optimization-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .wpdba-optimization-container table {
+    width: 100%;
+  }
+  .wpdba-optimization-text {
+    order: -1;
+  }
+}
+
+/* Add this to your stylesheet */
+.wpdba-admin-boxes {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.wpdba-box-two {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.wpdba-large-tables {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.wpdba-large-tables th,
+.wpdba-large-tables td {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.wpdba-large-tables th {
+  background-color: #f4f4f4;
+}
+
+.wpdba-large-tables tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+  .wpdba-large-tables th,
+  .wpdba-large-tables td {
+    padding: 0.3rem;
+  }
+
+  .wpdba-title-mobile h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Basic styling for table */
+.wpdba-tab-content {
+  display: flex;
+  flex-direction: column;
+}
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.responsive-table .main-row .table-name {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.responsive-table .toggle-details {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.responsive-table .toggle-details.expanded {
+  transform: rotate(180deg);
+}
+
+/* Details section hidden by default */
+.responsive-table .details {
+  display: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .responsive-table {
+    width: 100%;
+  }
+  .responsive-table th tr,
+  .responsive-table td {
+    display: block;
+    width: 82%;
+  }
+
+  .responsive-table th {
+    display: none; /* Hide the header on smaller screens */
+  }
+}
+
+/* Hide the toggle button and show details by default on larger screens */
+@media (min-width: 769px) {
+  .responsive-table .toggle-details {
+    display: none;
+  }
+
+  .responsive-table .details {
+    display: block !important; /* Ensure all details are shown */
+  }
+}
+
+/* On smaller screens, hide details by default and show the toggle button */
+@media (max-width: 768px) {
+  .responsive-table .toggle-details {
+    display: inline-block;
+  }
+
+  .responsive-table .details {
+    display: none;
+  }
+}
+/* options */
