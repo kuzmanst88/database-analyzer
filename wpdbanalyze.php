@@ -4,7 +4,7 @@ Plugin Name: Database Analyzer
 Description: Analyze + Optimize WP database
 Version: 1.0.0
 Author URI:        https://kuzmans3.sg-host.com
-Author: Me
+Author: Kuzman
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
